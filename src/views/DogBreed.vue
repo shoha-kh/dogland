@@ -9,7 +9,7 @@
 
       <v-select
         v-if="subBreedOptions.length > 1"
-        label="Select a dog breed"
+        label="Select a dog sub-breed"
         v-model="subBreed"
         :options="subBreedOptions"
       />
